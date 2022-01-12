@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+</head>
+
+<style>
+    body {
+
+        background: #fffffb;
+    
+        display: flex;
+    
+        justify-content: center;
+    
+        align-items: center;
+    
+        height: 100vh;
+    
+        flex-direction: column;
+    
+    }
+    
+    *{
+    
+        font-family: cursive;
+    
+        box-sizing: padding-box;
+    
+    }
+    
+    form {
+    
+        width: 1000px;
+    
+        border: 3px solid rgb(39, 40, 41);
+    
+        padding: 20px;
+    
+        background: rgba(54, 63, 64, 0.122);
+    
+        border-radius: 20px;
+    
+    }
+    table{
+        
+    
+            width: 1000px;
+        
+            border: 3px solid rgb(39, 40, 41);
+        
+            padding: 20px;
+        
+            background: rgba(54, 63, 64, 0.122);
+        
+            border-radius: 20px;
+        
+        
+        
+    }
+    
+    h2 {
+    
+        text-align: center;
+    
+        margin-bottom: 40px;
+    
+    }
+    
+    input {
+    
+        display: block;
+    
+        border: 2px solid #ccc;
+    
+        width: 95%;
+    
+        padding: 10px;
+    
+        margin: 10px auto;
+    
+        border-radius: 5px;
+    
+    }
+    
+    label {
+    
+        color: #888;
+    
+        font-size: 18px;
+    
+        padding: 10px;
+    
+    }
+    
+    button {
+    
+        float: right;
+    
+        background: rgb(6, 111, 202);
+    
+        padding: 10px 15px;
+    
+        color: #fff;
+    
+        border-radius: 5px;
+    
+        margin-right: 10px;
+    
+        border: none;
+    
+    }
+    
+    button:hover{
+    
+        opacity: .10;
+    
+    }
+    
+    .error {
+    
+       background: #F2DEDE;
+    
+       color: #0c0101;
+    
+       padding: 10px;
+    
+       width: 95%;
+    
+       border-radius: 5px;
+    
+       margin: 20px auto;
+    
+    }
+    
+    h1 {
+    
+        text-align: center;
+    
+        color: rgb(208, 109, 109);
+    
+    }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+ </style>
+<body>
+    
+    
+    
+        <h3><center>ADMIN LOG-IN </center></h3>
+
+    <form action="admin_login.php" method="post">
+        <center>
+            <input type="text" name="username" placeholder="username"><br>
+            <input type="password" name="password" placeholder="password"><br>
+            <button type="submit" name="submit" >submit</button>
+            
+
+    </center>
+    </form><br>
+    <br>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        
+        <li><a href="signup.html">Register</a></li>
+        <li><a href="#">Contact Us</a></li>
+        
+    
+    
+      </ul>
+    
+</body>
+</html>
+
