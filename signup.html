@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup page</title>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+    
+  
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        /* Change the link color to #111 (black) on hover */
+        li a:hover {
+          background-color: #111;
+        }
+        button {
+
+            float: right;
+        
+            background: rgb(30, 132, 221);
+        
+            padding: 10px 15px;
+        
+            color: #fff;
+        
+            border-radius: 5px;
+        
+            margin-right: 10px;
+        
+            border: none;
+        
+        }
+        
+        button:hover{
+        
+            opacity: .10;
+        
+        }
+    
+    
+    
+   
+
+</style>
+
+<body>
+
+    
+
+    <form action="signup.php" method="post">
+        <h3><center>SIGN-UP PAGE</center></h3>
+    
+        <center>
+        <input type="text" name="fname" placeholder="firstname">firstname<br>
+        <input type="text" name="lname" placeholder="lastname">lastname<br>
+        <input type="email" name="email" placeholder="email">email<br>
+        <input type="text" name="username" placeholder="username">username<br>
+        <input type="text" name="phone" placeholder="phone">phone<br>
+        <input type="text" name="rollnumber" placeholder="rollnumber">rollnumber<br>
+        <select name="branch" width:20%;>
+            <option name="null"value="">--select your branch--</option>
+            <option name="CSE" value="CSE">CSE</option>
+            <option name="CSE-IoT"value="IoT">CSE-IoT</option>
+            <option name="CSE-AI"value="AI">CSE-AI</option>
+            <option name="ECE"value="ECE">ECE</option>
+            <option name="MECHANICAL"value="MECHANICAL">MECHANICAL</option>
+            <option name="CIVIL"value="CIVIL">CIVIL</option>
+            <option name="EEE"value="EEE">EEE</option>
+        </select><br>
+        <br>
+
+
+        <input type="password" name="password" placeholder="password"><br>
+        <input type="password" name="cpassword" placeholder="confirm password"><br>
+        <small>Make sure you enter the same password</small><br>
+        <button type="submit" name="submit" class="col md 6" >SignUp</button> <button type="reset" name="reset" class="col md 6" > reset</button> 
+
+        </center>
+    </form>
+    <br>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="NULL">MENU</a></li>
+        <li><a href="retrieve.php">all records</a></li>
+    </ul>
+
+</body>
+</html
